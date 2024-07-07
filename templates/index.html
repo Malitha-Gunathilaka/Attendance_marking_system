@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Attendance Marking System</h1>
+        <nav class="nav nav-pills nav-justified">
+            <a class="nav-item nav-link active" href="#" id="add-student-link">Add Student</a>
+            <a class="nav-item nav-link" href="#" id="update-student-link">Update Student</a>
+            <a class="nav-item nav-link" href="#" id="delete-student-link">Delete Student</a>
+            <a class="nav-item nav-link" href="#" id="mark-attendance-link">Mark Attendance</a>
+            <a class="nav-item nav-link" href="#" id="view-attendance-link">View Attendance</a>
+            <a class="nav-item nav-link" href="#" id="generate-report-link">Generate Report</a>
+        </nav>
+        <div id="main-content" class="mt-4">
+            <!-- Main content will be injected here -->
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
