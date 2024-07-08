@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#main-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form .form-group {
+    margin-bottom: 15px;
+}
+
+form .form-control {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+form .btn {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form .btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+}
+
+form .btn-danger {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+}
